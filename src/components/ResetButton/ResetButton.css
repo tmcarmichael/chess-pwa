@@ -1,0 +1,34 @@
+.reset-button {
+  display: flex;
+  background-color: #8a8a8a;
+  padding: 10px;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.reset-button button {
+  background-color: #531919;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+  color: #fff;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  letter-spacing: 1px;
+  box-shadow: 0 4px #7c3535;
+  transition: all 0.2s ease-in-out;
+}
+
+.reset-button button:active {
+  box-shadow: 0 2px #6b0017;
+  transform: translate3d(-0.5px, 2px, 0px);
+}
+
+.reset-button button:focus {
+  box-shadow: 0 4px #6b0017, 0 0 0 2px rgba(128, 0, 32, 0.3);
+}

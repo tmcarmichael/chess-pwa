@@ -1,7 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import "./Chessboard.css";
 
 const Chessboard = () => {
+  const [selectedDifficulty, setSelectedDifficulty] = useState(null);
+  const handleDifficultyClick = (difficulty) => {
+    setSelectedDifficulty(difficulty);
+  };
   const squares = Array(64)
     .fill(null)
     .map((_, i) => {

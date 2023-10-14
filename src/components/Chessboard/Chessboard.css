@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: repeat(8, 75px);
   grid-template-rows: repeat(8, 75px);
-  margin: 20px auto 20px auto; /* Add margin-bottom */
+  margin: 0px auto 50px auto;
 }
 
 .square {
