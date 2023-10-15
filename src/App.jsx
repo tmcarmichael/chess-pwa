@@ -4,6 +4,8 @@ import React, { useState } from "react";
 import Chessboard from "./components/Chessboard/Chessboard";
 import DifficultySelector from "./components/DifficultySelector/DifficultySelector";
 
+import "./scss/main.css";
+
 const App = () => {
   const [selectedDifficulty, setSelectedDifficulty] = useState(null);
 
