@@ -1,28 +1,39 @@
 .difficulty-buttons {
   display: flex;
-  padding: 10px 20px;
+  flex-direction: column;
+  padding: 20px 20px;
   gap: 10px;
   justify-content: center;
+  margin-top: 40px;
   margin-bottom: 20px;
-  border: none;
 }
 
 .difficulty-buttons button {
   padding: 10px 20px;
-  font-size: 18px;
-  font-weight: 400;
+  width: 150px;
+  font-size: 16px;
+  font-weight: 300;
+  background-color: #df9d5a;
+  color: #393939;
+  border-radius: 4px;
+}
+.difficulty-buttons button:hover {
+  background-color: #df9d5a;
+  color: #393939;
 }
 
 .difficulty-buttons button.active {
-  background-color: #32280c;
-  color: rgb(217, 216, 216);
+  background-color: #aa7541;
+  border: 1px solid #cba052;
+  color: #393939;
   transition: background-color 0.6s, box-shadow 0.4s;
-  box-shadow: inset 0 0 4px 3px rgba(0, 0, 0, 0.4);
+  box-shadow: inset 0 0 3px 2px rgba(0, 0, 0, 0.4);
   font-weight: 600;
 }
 
 .chessboard {
   display: grid;
+  flex: none;
   grid-template-columns: repeat(8, 80px);
   grid-template-rows: repeat(8, 80px);
   margin: 0px auto 50px auto;
@@ -47,14 +58,17 @@
   display: flex;
   justify-content: space-around;
   margin-bottom: 5px;
+  background-color: #000000;
+  border-radius: 6px;
 }
 
-.App {
+.app {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   align-items: center;
   text-align: center;
   padding: 40px;
+  gap: 20px;
 }
 
 body {

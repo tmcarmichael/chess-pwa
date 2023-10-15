@@ -1,7 +1,6 @@
-import { ThemeProvider } from "@mui/material/styles";
-import { theme } from "./theme";
 import React, { useState } from "react";
 import Chessboard from "./components/Chessboard/Chessboard";
+import MainContainer from "./components/MainContainer/MainContainer";
 import DifficultySelector from "./components/DifficultySelector/DifficultySelector";
 
 import "./scss/main.css";
@@ -15,16 +14,16 @@ const App = () => {
   };
 
   return (
-    <ThemeProvider theme={theme}>
-      <div className="App">
+    <MainContainer>
+      <div className="app">
+        <Chessboard selectedDifficulty={selectedDifficulty} />
         <DifficultySelector
           onSelectDifficulty={handleSelectDifficulty}
           selectedDifficulty={selectedDifficulty}
           setSelectedDifficulty={setSelectedDifficulty}
         />
-        <Chessboard selectedDifficulty={selectedDifficulty} />
       </div>
-    </ThemeProvider>
+    </MainContainer>
   );
 };
 

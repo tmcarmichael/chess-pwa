@@ -1,7 +1,8 @@
-.App {
+.app {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: center; // Centers the items horizontally
+  align-items: center; // Centers the items vertically
   text-align: center;
   padding: 40px;
+  gap: 20px; // Creates a gap between flex items
 }

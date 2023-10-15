@@ -1,5 +1,6 @@
 .chessboard {
   display: grid;
+  flex: none;
   grid-template-columns: repeat(8, 80px);
   grid-template-rows: repeat(8, 80px);
   margin: 0px auto 50px auto;
