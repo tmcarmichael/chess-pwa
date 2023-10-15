@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./Chessboard.css";
+import "../../scss/main.css";
 
 const Chessboard = () => {
   const [selectedDifficulty, setSelectedDifficulty] = useState(null);
