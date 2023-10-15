@@ -1,7 +1,7 @@
+import "../../scss/main.css";
+
 import React from "react";
 import DifficultyButtons from "../DifficultyButtons/DifficultyButtons";
-
-import "../../scss/main.css";
 
 const DifficultySelector = ({
   onSelectDifficulty,

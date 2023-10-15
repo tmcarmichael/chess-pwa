@@ -1,8 +1,8 @@
 .chessboard {
   display: grid;
   flex: none;
-  grid-template-columns: repeat(8, 80px);
-  grid-template-rows: repeat(8, 80px);
+  grid-template-columns: repeat(8, 70px);
+  grid-template-rows: repeat(8, 70px);
   margin: 0px auto 50px auto;
   justify-content: center;
   box-shadow: 0px 10px 24px rgba(0, 0, 0, 0.25),
@@ -10,8 +10,11 @@
 }
 
 .square {
-  width: 80px;
-  height: 80px;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .light {
@@ -20,4 +23,9 @@
 
 .dark {
   background-color: $brown;
+}
+
+.chess-piece {
+  width: 60px;
+  height: 60px;
 }
