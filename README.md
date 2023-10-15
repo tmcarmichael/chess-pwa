@@ -20,7 +20,7 @@
   </p>
 </p>
 
-![Downloads](https://img.shields.io/github/downloads/{{GH_USER}}/{{REPO}}/total) ![Contributors](https://img.shields.io/github/contributors/{{GH_USER}}/{{REPO}}?color=dark-green) ![Issues](https://img.shields.io/github/issues/{{GH_USER}}/{{REPO}}) ![License](https://img.shields.io/github/license/{{GH_USER}}/{{REPO}})
+![Downloads](https://img.shields.io/github/downloads/tmcarmichael/chess-pwa/total) ![Contributors](https://img.shields.io/github/contributors/tmcarmichael/chess-pwa?color=dark-green) ![Issues](https://img.shields.io/github/issues/tmcarmichael/chess-pwa) ![License](https://img.shields.io/github/license/tmcarmichael/chess-pwa)
 
 ## Table Of Contents
 
