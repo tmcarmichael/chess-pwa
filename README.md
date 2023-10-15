@@ -9,14 +9,14 @@
     A Progressive Web App for Chess written in JS/React.
     <br/>
     <br/>
-    <a href="https://github.com/{{GH_USER}}/{{REPO}}"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/tmcarmichael/chess-pwa#about-the-project"><strong>Explore the docs »</strong></a>
     <br/>
     <br/>
     <a href="https://github.com/{{GH_USER}}/{{REPO}}">View Demo</a>
     .
-    <a href="https://github.com/{{GH_USER}}/{{REPO}}/issues">Report Bug</a>
+    <a href="https://github.com/tmcarmichael/chess-pwa/issues">Report Bug</a>
     .
-    <a href="https://github.com/{{GH_USER}}/{{REPO}}/issues">Request Feature</a>
+    <a href="https://github.com/tmcarmichael/chess-pwa/issues">Request Feature</a>
   </p>
 </p>
 
