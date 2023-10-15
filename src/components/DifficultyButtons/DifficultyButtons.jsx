@@ -1,3 +1,4 @@
+import Button from "@mui/material/Button";
 import React from "react";
 import "./DifficultyButtons.css";
 
@@ -16,13 +17,14 @@ const DifficultyButtons = ({
   return (
     <div className="difficulty-buttons">
       {difficulties.map((level) => (
-        <button
+        <Button
+          variant="contained"
           key={level}
           className={selectedDifficulty === level ? "active" : ""}
           onClick={() => handleButtonClick(level)}
         >
           {level}
-        </button>
+        </Button>
       ))}
     </div>
   );
