@@ -1,9 +1,11 @@
 import React from "react";
 import "./DifficultyButtons.css";
 
-const DifficultyButtons = ({ onSelectDifficulty }) => {
-  const [selectedDifficulty, setSelectedDifficulty] = React.useState(null);
-
+const DifficultyButtons = ({
+  onSelectDifficulty,
+  selectedDifficulty,
+  setSelectedDifficulty,
+}) => {
   const handleButtonClick = (difficulty) => {
     setSelectedDifficulty(difficulty);
     onSelectDifficulty(difficulty);

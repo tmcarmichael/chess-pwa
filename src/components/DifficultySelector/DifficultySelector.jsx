@@ -2,10 +2,18 @@ import React from "react";
 import DifficultyButtons from "../DifficultyButtons/DifficultyButtons";
 import "./DifficultySelector.css";
 
-const DifficultySelector = ({ onSelectDifficulty }) => {
+const DifficultySelector = ({
+  onSelectDifficulty,
+  selectedDifficulty,
+  setSelectedDifficulty,
+}) => {
   return (
     <div className="difficulty-selector">
-      <DifficultyButtons onSelectDifficulty={onSelectDifficulty} />
+      <DifficultyButtons
+        onSelectDifficulty={onSelectDifficulty}
+        selectedDifficulty={selectedDifficulty}
+        setSelectedDifficulty={setSelectedDifficulty}
+      />
     </div>
   );
 };

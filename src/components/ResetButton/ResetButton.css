@@ -1,15 +1,15 @@
 .reset-button {
-  display: flex;
-  background-color: #8a8a8a;
-  padding: 10px;
-  gap: 10px;
+  display: flex !important;
   justify-content: center;
+  padding: 10px;
   margin-bottom: 20px;
   border-radius: 5px;
+  display: inline-flex;
 }
 
 .reset-button button {
   background-color: #531919;
+  box-shadow: 0 4px #7c3535;
   padding: 10px 20px;
   font-size: 16px;
   cursor: pointer;
@@ -20,7 +20,6 @@
   width: 100px;
   height: 100px;
   letter-spacing: 1px;
-  box-shadow: 0 4px #7c3535;
   transition: all 0.2s ease-in-out;
 }
 
